@@ -1,7 +1,41 @@
 .header{
-    background-color: #2196F3;
+    background-color: #0a426f;
     text-align: center;
     color: white;
+}
+
+.stateBtn{
+    display: list-item;
+}
+
+.searchContainer{
+    width: 300px;
+    height: 647.5px;
+}
+
+.oneDayForcastContainer{
+  float: right;
+  background-color: rgb(208, 208, 208);
+  border-color: #0a426f;
+  border-width: 20px;
+  width: 900px;
+  height: 250px;
+}
+.forecastContainer{
+    float: right;
+    background-color: red;
+    width: 900px;
+    height: 250px;
+
+
+}
+
+.day{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #2196F3;
+
 }
 
 
@@ -62,13 +96,3 @@
   }
 
 
-
-
-
-.forecastContainer{
-    display: table-row-group;
-    row-gap: 5px;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-  }
