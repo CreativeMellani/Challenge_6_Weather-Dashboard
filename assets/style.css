@@ -4,12 +4,28 @@
     color: white;
 }
 
+.input{
+  text-align: center;
+}
+
+/* creating a class specific to the input text */
+input[type=text]{
+  height: 50px;
+  width: 300px;
+  font-weight: bold;
+}
+
+input[type=submit]{
+  height: 50px;
+  width: 300px;
+  font-weight: bold;
+}
 .stateBtn{
     display: list-item;
 }
 
 .searchContainer{
-    width: 300px;
+    width: 400px;
     height: 647.5px;
 }
 
@@ -18,13 +34,13 @@
   background-color: rgb(208, 208, 208);
   border-color: #0a426f;
   border-width: 20px;
-  width: 900px;
+  width: 800px;
   height: 250px;
 }
 .forecastContainer{
     float: right;
     background-color: red;
-    width: 900px;
+    width: 800px;
     height: 250px;
 
 
